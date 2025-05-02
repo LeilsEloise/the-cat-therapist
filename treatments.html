@@ -23,7 +23,39 @@
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page-->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation Bar -->
-     
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/favicon-32x32.png" alt="logo" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav margin-right flexbox">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" aria-current="page" href="treatments.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Treatments
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cat Aggression</a></li>
+                  <li><a class="dropdown-item" href="#">Cat Anxiety</a></li>
+                  <li><a class="dropdown-item" href="#">Bad Toilet Habits</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Appointments</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
  <!-- Header with Text -->
  <header class="container">
