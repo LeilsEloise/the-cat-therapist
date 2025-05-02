@@ -9,13 +9,34 @@
     --secondary-color: #def3d7; /* Peppermint */
     --highlight-color: #142f5e; /* Blue Zodiac */
     --highlight-color-light: #82a5de; /* Blue Chetwode */ 
+    --heading-font-size: 8rem;
+    --subheading-font-size: 4rem;
+    --body-font-size: 1.2rem;
 }
 
 /* Global Styles */
+
+body {
+    font-family: var(--secondary-font);
+    font-size: var(--body-font-size);
+}
 
 h1,
 h2,
 h3 {
     font-family: var(--primary-font);
     color: var(--primary-color);
+    font-size: var(--heading-font-size);
+}
+
+/* grid visualisation CSS for testing */
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgrey;
 }
