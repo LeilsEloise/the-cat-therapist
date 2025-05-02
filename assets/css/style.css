@@ -19,6 +19,7 @@
 body {
     font-family: var(--secondary-font);
     font-size: var(--body-font-size);
+    color: var(--primary-color);
 }
 
 h1,
@@ -32,6 +33,7 @@ h3 {
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    background-color: var(--secondary-color);
 }
 
 /* Navbar Styles */
@@ -45,6 +47,14 @@ h3 {
 }
 
 /* Header */
+
+
+.carousel-item img {
+    width:  600px;
+    height: 600px;
+    object-fit: cover;
+}
+
 
 
 /* grid visualisation CSS for testing */
