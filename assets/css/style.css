@@ -66,13 +66,22 @@ h2 {
 
 /* Testimonials */
 
+#testimonials .card {
+    background-color: transparent;
+    border: solid 3px var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
 #testimonials .card-body {
         margin-bottom: 1.5rem;
         text-align: center;
+        
     }
 
 #testimonials .card-text {
     margin-top: 1.5rem;
+    color: var(--primary-color)
+
 }
 
 
