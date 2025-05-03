@@ -62,13 +62,26 @@ h2 {
 
 /* Testimonials */
 
-#testimonials .card {
+.card {
+    height: 42rem;
+    width: 19rem;
+}
+
+#testimonials .card-body {
         margin-bottom: 1.5rem;
+        text-align: center;
     }
-/*
-#testimonials .card-title {
-    ;
-}*/
+
+#card-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+#testimonials .card-text {
+    margin-top: auto;
+}
+
+
 
 /* Media queries */
 
