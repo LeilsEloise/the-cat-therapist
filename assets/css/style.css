@@ -60,6 +60,7 @@ h2 {
 }
 
 
+
 /* Testimonials */
 
 .card {
@@ -78,7 +79,7 @@ h2 {
 }
 
 #testimonials .card-text {
-    margin-top: auto;
+    margin-top: 1.5rem;
 }
 
 
