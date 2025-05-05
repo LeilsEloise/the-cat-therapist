@@ -80,6 +80,8 @@ h2 {
 
 /* Header */
 
+/* ACK - code used from stackeroverflow */
+
 .carousel-item img {
     /*object-fit: cover;*/
     height: auto;
@@ -129,6 +131,7 @@ h2 {
     padding-right: 0.5rem;
   }
 
+/* ACK - used Boardwalk Games media queries to save time */  
 /* Media queries */  
 
 
