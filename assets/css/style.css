@@ -97,8 +97,22 @@ h2 {
     text-align: center;
 } 
 
+/* Footer Styles */
 
-/* Media queries */
+#footer {
+    color: #fff;
+    background-color: var(--primary-color);
+  }
+
+  .social-links a {
+    color: var(--highlight-color-light);
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+/* Media queries */  
+
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
