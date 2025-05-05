@@ -41,9 +41,9 @@
                   Treatments
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Cat Aggression</a></li>
-                  <li><a class="dropdown-item" href="#">Cat Anxiety</a></li>
-                  <li><a class="dropdown-item" href="#">Bad Toilet Habits</a></li>
+                    <li><a class="dropdown-item" href="treatments.html">Cat Aggression</a></li>
+                    <li><a class="dropdown-item" href="treatments.html">Cat Anxiety</a></li>
+                    <li><a class="dropdown-item" href="treatments.html">Bad Toilet Habits</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -61,9 +61,8 @@
        <header class="container section">
         <div class="row">
             <div class="col-12 col-xl-6">
-            <h1 class="display-1 text-start">Treatments</h1>
-            <p class="my-4 header-p text-start">On this page you will find a few examples of the issues which we treat and what you might expect from us if you were to use our services for that particular issue. 
-                There is also pricing estimates for each issue at the bottom of the page!</p>
+            <h1 class="display-1 text-end">Appointments</h1>
+            <p class="my-4 header-p text-end">On this page you can look through our calendar and see when we are open and make an appointment!</p>
             </div>
         </div>
     </header>
@@ -71,51 +70,41 @@
 
 <!-- Main Element which holds key sections of Treatments page and not part of the grid structure -->
 <main>
-    <!-- Examples of Issues  -->
-    <section id="treatments" class="container section">
-      <div class="row">
-          <div class="col-12 text-center">
-              <h2 class="display-3 mb-3 text-end">Examples of Issues</h2>
-          </div>
-          <div class="col-12">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title display-4 text-start">Aggression</h2>
-              <p class="card-text text-start mb-4">One of the issues which you may face from your feline friend is aggressive behaviour. <br>
-                Examples of this kind of behaviour can range from hissing and backing into a corner, to actually physically attacking you and drawing blood.<br>
-                Here at The Cat Therapist, we approach these types of issues gently and look at where the issue could be coming from from all angles!</p>
-              <img src="assets/images/cataggression-issue1.jpg" class="card-img-top issue-card-img" alt="cat being aggressive and hissing under a table">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12">       
-      <div class="card">
-            <div class="card-body">
-              <h2 class="card-title display-4 text-end">Fear and Anxiety</h2>
-              <p class="card-text text-end mb-4">If you cat is suddenly hiding from you or walking around and holding its tail between its legs, then these are symptoms of anxiety.
-                There could be a number of things causing this for your poor cat and we here at The Cat Therapist are dedicated to helping you find the cause.
-              </p>
-              <img src="assets/images/catanxiety-issue2.jpg" class="card-img-top issue-card-img" alt="a cat overgrooming itself which can be a sign of anxiety.">
-            </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title display-4 text-start">Bad Toilet Habits</h2>
-              <p class="card-text text-start mb-4">Sometimes our cats can suddenly stop knowing how to use their litter tray and this can put a big strain on us as their owner having to clean up the mess.
-                This can be due to a number of reasons, i.e. A change in their home environment, an underlying medical issue or something threatening them from outside their home.
-                We at The Cat Therapist look at all avenues and get your kitty back to using their toilet again!
-              </p>
-              <img src="assets/images/litterbox-issue3.jpg" class="card-img-top issue-card-img" alt="ceramic ornament cat sitting on a toilet">
-            </div>
-          </div>
-          </div>
-          </section>
+    <!-- Booking inquiry form section -->
+    <section id="booking-form" class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <form action="success.html" method="GET">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-control" id="name" name="name" type="text" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone" name="phone" type="number" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="dates" class="form-label" name="dates" required>Appointment Dates</label>
+                            <br><input type="date" id="dates" name="dates">
+                            </select>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" rows="6" id="message" name="message"></textarea>
+                        </div>
+                    </div>
 
-
-   </main>
+                    <button type="submit" class="btn custom-button-outline mb-4 text-center">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
 
   <!-- Footer / Contact Section -->
   <footer id="footer" class="mt-auto">
