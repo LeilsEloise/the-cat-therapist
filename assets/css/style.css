@@ -19,7 +19,6 @@
 body {
     font-family: var(--secondary-font);
     font-size: var(--body-font-size);
-    color: var(--primary-color);
     background-color: var(--secondary-color);
 }
 
@@ -39,6 +38,16 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-color: transparent;
+}
+
+.btn {
+    background-color: var(--highlight-color);
+    font: var(--secondary-font);
+}
+
+.weblink {
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 /* Navbar Styles */
@@ -69,24 +78,24 @@ h2 {
 #testimonials .card {
     background-color: transparent;
     border: solid 3px var(--primary-color);
+    align-items: stretch;
+    margin-top: auto;
     margin-bottom: 1.5rem;
 }
 
 #testimonials .card-body {
-        margin-bottom: 1.5rem;
         text-align: center;
     }
 
-#testimonials .card-text {
-    margin-top: 1.5rem;
+.card-title {
     color: var(--primary-color);
 }
 
-#testimonials .btn {
-    background-color: var(--highlight-color);
-    font: var(--secondary-font);
-    margin-top: 1.5rem;
-}
+/* Qualifications */
+
+#qualifications-list {
+    text-align: center;
+} 
 
 
 /* Media queries */
