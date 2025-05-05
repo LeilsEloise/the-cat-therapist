@@ -43,6 +43,8 @@ h2 {
 .btn {
     background-color: var(--highlight-color);
     font: var(--secondary-font);
+    color: white;
+    object-position: center;
 }
 
 .weblink {
