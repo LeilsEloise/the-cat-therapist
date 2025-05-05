@@ -50,6 +50,22 @@ h2 {
     font-weight: bold;
 }
 
+.card-text {
+    text-align: center;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.card {
+    background-color: transparent;
+    border: solid 3px var(--primary-color);
+    align-items: stretch;
+    margin-top: auto;
+    margin-bottom: 1.5rem;
+}
+
 /* Navbar Styles */
 
 #navbar {
@@ -75,27 +91,27 @@ h2 {
 
 /* Testimonials */
 
-#testimonials .card {
-    background-color: transparent;
-    border: solid 3px var(--primary-color);
-    align-items: stretch;
-    margin-top: auto;
-    margin-bottom: 1.5rem;
-}
-
 #testimonials .card-body {
         text-align: center;
     }
-
-.card-title {
-    color: var(--primary-color);
-}
 
 /* Qualifications */
 
 #qualifications-list {
     text-align: center;
 } 
+
+/* Treatments */
+
+  .treatments-heading {
+    position: relative;
+    left: 200px;
+  }
+
+  .pricing {
+        margin-left: auto;
+        margin-right: auto;
+      }
 
 /* Footer Styles */
 
@@ -120,12 +136,20 @@ h2 {
     #testimonials .card-body {
         min-height: 191px;
     }
+
+    #treatments .card-body {
+        min-height: 191px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     /* Make all testimonial cards the same height for consistency */
     #testimonials .card-body {
+        min-height: auto;
+    }
+
+    #treatments .card-body {
         min-height: auto;
     }
 }
@@ -136,12 +160,20 @@ h2 {
     #testimonials .card-body {
         min-height: 220px;
     }
+
+    #treatments .card-body {
+        min-height: 220px;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
     /* make all testimonial cards the same height for consistency */
     #testimonials .card-body {
+        min-height: 195px;
+    }
+
+    #treatments .card-body {
         min-height: 195px;
     }
 }
