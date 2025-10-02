@@ -103,9 +103,10 @@ li {
 /* ACK - code used from stackeroverflow */
 
 .carousel-item img {
-    /*object-fit: cover;*/
-    height: auto;
+    height: 300px;
     width: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .header-p {
