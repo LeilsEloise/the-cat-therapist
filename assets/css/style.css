@@ -45,7 +45,14 @@ h2 {
     font: var(--secondary-font);
     color: white;
     object-position: center;
+    /* ACK - Stack Overflow - https://stackoverflow.com/questions/33991774/button-not-centering-in-html-form */
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
 }
+
 
 .weblink {
     color: var(--primary-color);
@@ -71,6 +78,12 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     height: 100%; /* Make it stretch */
+}
+
+.card-button {
+    align-items: stretch;
+    margin-top: auto;
+    margin-bottom: 1.5rem;
 }
 
 /* Video Player Styles */
